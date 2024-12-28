@@ -9,7 +9,6 @@ As the machine moves across the field, it dispenses seeds with high precision, e
 AGRO SMMS represents a significant leap in agricultural technology, offering the promise of increased yields, reduced resource waste, and sustainable farming practices.
 
 Key Skills:
-
 Arduino IDE
 C++ Programming
 Sensor Integration
