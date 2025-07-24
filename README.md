@@ -3,7 +3,7 @@
 ---
 
 **Smart Farming Meets Innovation**
-AGRO SMMS is a **robotic precision agriculture system** that revolutionizes traditional sowing methods. Combining automation, environmental sensing, and real-time analytics, it ensures **accurate seed placement** and **optimized soil conditions** — paving the way for **higher yields and sustainable farming**.
+AGRO SMMS is a **robotic precision agriculture system** that revolutionizes traditional sowing methods. Combining automation, environmental sensing, and real-time analytics, it ensures **accurate seed placement** and **optimized soil conditions** paving the way for **higher yields and sustainable farming**.
 
 ---
 
