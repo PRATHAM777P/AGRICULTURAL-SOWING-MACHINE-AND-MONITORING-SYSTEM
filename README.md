@@ -37,6 +37,11 @@ AGRO SMMS is a **robotic precision agriculture system** that revolutionizes trad
 | 🧾 C++             | Embedded logic & sensor handling |
 
 ---
+## 🌐 Web Interface Preview 
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4ee4d191-42ba-4bf9-aac0-7ee2363477ba" />
+
+---
 
 ### ✅ Project Impact
 
