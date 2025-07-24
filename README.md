@@ -18,7 +18,7 @@ AGRO SMMS is a **robotic precision agriculture system** that revolutionizes trad
 
 ### 🌟 Key Features
 
-* 🤖 **Automated Sowing** via robotic mechanism
+* 🤖 **Automated Sowing** through a robotic mechanism with a **remote-controlled web interface**.
 * 🌡️ **Real-Time Environmental Monitoring**
 * 🌐 **IoT-Enabled** with wireless ESP32 communication
 * 💧 **Smart Moisture Tracking** for irrigation management
