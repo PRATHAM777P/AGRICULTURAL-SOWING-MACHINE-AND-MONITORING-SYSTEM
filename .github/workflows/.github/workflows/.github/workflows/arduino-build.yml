@@ -1,0 +1,37 @@
+name: Arduino Build Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Arduino CLI
+      run: |
+        curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+        export PATH="$HOME/bin:$PATH"
+        arduino-cli version
+
+    - name: Install ESP32 core
+      run: |
+        export PATH="$HOME/bin:$PATH"
+        arduino-cli core update-index
+        arduino-cli core install esp32:esp32
+
+    - name: Install libraries
+      run: |
+        export PATH="$HOME/bin:$PATH"
+        arduino-cli lib install "DHT sensor library"
+
+    - name: Compile sketch
+      run: |
+        export PATH="$HOME/bin:$PATH"
+        arduino-cli compile --fqbn esp32:esp32:esp32 Sensors-Final.ino
